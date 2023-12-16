@@ -5,10 +5,9 @@ import { getDictionary } from "../utils/get-dictionary";
 import { router } from "../server/router/router";
 import type { PropsWithChildren } from "react";
 import type { GenerateLayoutMetadataProps, RouteLocale } from "next-roots";
+import { RootLayoutProps } from "../types/home";
 
 const inter = Inter({ subsets: ["latin"] });
-
-type RootLayoutProps = PropsWithChildren<{ locale: RouteLocale }>;
 
 export async function generateMetadata({
   locale,
