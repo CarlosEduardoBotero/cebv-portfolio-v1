@@ -1,6 +1,15 @@
 {
-  "matadata": {
-    "title": "Carlos Botero",
-    "description": "Carlos Botero é um engenheiro de software que cria produtos e experiências digitais acessíveis e inclusivos para a web."
+  "home": {
+    "matadata": {
+      "title": "Carlos Botero",
+      "description": "Carlos Botero é um engenheiro de software Front-end que cria produtos e experiências digitais acessíveis e inclusivos para a web."
+    },
+    "nav": {
+      "home": "Início",
+      "projects": "Projetos"
+    },
+    "content": {
+      "Title": "Carlos Eduardo Botero Viloria portfolio em construção"
+    }
   }
 }
